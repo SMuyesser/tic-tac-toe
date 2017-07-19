@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name='viewport' content="width=device-width, initial-scale=1">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div class="board js-board">
+			<h1>Game 1</h1>
+			<table class="borders">
+				<tbody>
+					<tr>
+						<td><input value=" " id="1" readonly></input></td>
+						<td><input value=" " id="2" readonly></input></td>
+						<td><input value=" " id="3" readonly></input></td>
+					</tr>
+					<tr>
+						<td><input value=" " id="4" readonly></input></td>
+						<td><input value=" " id="5" readonly></input></td>
+						<td><input value=" " id="6" readonly></input></td>
+					</tr>
+					<tr>
+						<td><input value=" " id="7" readonly></input></td>
+						<td><input value=" " id="8" readonly></input></td>
+						<td><input value=" " id="9" readonly></input></td>
+					</tr>
+				</tbody>
+			</table>
+			<h2 id="js-status">X goes first!</h2>
+			<h2 id="js-turn">Current Turn: X</h2>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+		<script src="tictactoe.js"></script>
+	</body>
+</html>
